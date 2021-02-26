@@ -53,7 +53,7 @@ public class RabbitConfig {
         connectionFactory.setUsername(username);
         connectionFactory.setPassword(password);
         connectionFactory.setVirtualHost("/");
-        connectionFactory.setPublisherConfirms(true);
+//        connectionFactory.setPublisherConfirms(true);
         return connectionFactory;
     }
 
